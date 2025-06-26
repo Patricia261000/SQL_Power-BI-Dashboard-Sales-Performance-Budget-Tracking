@@ -1,24 +1,19 @@
 # 🚀 Power BI Dashboard – Sales Performance & Budget Tracking
 
+
+
+## 📌 Project Summary  
+An interactive and business-focused **Power BI dashboard** designed to track **internet sales performance**, compare results against **budget goals**, and spotlight key customers and products. Built using real-world data architecture with **SQL Server** and **Excel**, It is designed for both **sales managers** and **representatives** to monitor KPIs, identify trends, and make data-driven decisions.
+
+📊 **Project:** Sales Performance & Budget Tracker  
+🧰 **Tools:** Power BI, SQL Server, Excel, DAX, Power Query  
+📁 **Dataset:** Internet sales transactions + external budget data  
+📅 **Date:** June 2025  
+
+## 🖼️ Dashboard Preview  
 ![Main Dashboard Overview](./principal_dashboard.png)
-
-## 📊 Project Overview
-
-This dynamic and interactive **Power BI dashboard** was built to empower the sales team with actionable insights. Based on real business needs and user stories, the dashboard provides a comprehensive view of **internet sales performance**, **top products**, **key customers**, and **budget comparison** over time.
-
-It is designed for both **sales managers** and **representatives** to monitor KPIs, identify trends, and make data-driven decisions.
-
 ---
 
-## 🎯 Objectives
-
-- Analyze monthly internet sales vs. budget
-- Identify top 10 customers and top 10 products
-- Monitor performance by product category and customer city
-- Enable filtering by year, month, product, category, and location
-- Support strategic follow-ups and forecasting
-
----
 
 ## 🧠 Data & Architecture
 
@@ -32,23 +27,25 @@ It is designed for both **sales managers** and **representatives** to monitor KP
 
 ---
 
-## 👥 User Stories
+## 📊 Highlighted KPIs
 
-| Role               | Request                                                  | Value Added                                                  |
-|--------------------|----------------------------------------------------------|--------------------------------------------------------------|
-| Sales Manager      | View internet sales and budget comparison                | Monitor sales trends and overall performance                 |
-| Sales Representative | Analyze customer-level sales                             | Identify loyal buyers and upselling opportunities            |
-| Sales Representative | Analyze product-level sales                              | Focus on best-sellers and optimize inventory                 |
+| Metric                  | Description                                    |
+|-------------------------|------------------------------------------------|
+| 💵 Internet Sales        | Monthly and total sales from online channels  |
+| 🎯 Budget vs. Actual     | Variance analysis per month and category      |
+| 🏆 Top 10 Customers      | Highest spending clients by sales volume      |
+| 📦 Top 10 Products       | Best-selling items across categories          |
+| 🗺️ Sales by Location     | Sales distribution by customer city           |
+| 📊 Category Performance  | Insights per product category                 |
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🌍 Key Insights
 
-- **Power BI Desktop** – data modeling and visualization
-- **SQL Server** – data storage, transformation, and querying
-- **Excel** – budget input and external data
-- **DAX (Data Analysis Expressions)** – custom KPIs and metrics
-- **Power Query** – ETL process and data cleanup
+- 🔺 Clear visibility into **monthly sales trends vs. budget goals**
+- 🥇 Quick identification of **top-performing customers and products**
+- 🧭 Sales concentrated in **key cities**, supporting regional targeting
+- 🧠 Flexible filters for ad hoc insights by year, category, product, and region
 
 ---
 
@@ -68,12 +65,6 @@ The data model follows a **star schema**, optimized for performance and simplici
 It includes a central fact table with related dimension tables to support filtering and slicing.
 
 ![Data Model](./tabla_relaciones.png)
-## ✨ Results & Impact
-
-- Enhanced sales visibility across the organization
-- Enabled strategic decision-making and follow-up
-- Improved alignment with sales goals and budget performance
-- Delivered self-service analytics to sales teams
 
 ---
 
@@ -95,6 +86,3 @@ During the development of this project, I strengthened several key skills:
 - 📄 [User Stories Document](./Business%20Demand%20Overview%20&%20User%20Stories.docx)
 - 📘 [Portfolio Report (PDF)](./Data_analyst_portfolio_Project_Patricia.pdf)
 
----
-
-> 💡 _"Transforming raw SQL data into insights that drive results."_
